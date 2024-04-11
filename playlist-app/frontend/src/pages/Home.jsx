@@ -1,5 +1,3 @@
-// Home.jsx
-
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import fetchData from '../utils/fetchData';

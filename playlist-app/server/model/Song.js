@@ -1,5 +1,3 @@
-//song.js
-
 const getId = require('../utils/getId');
 
 class Song {

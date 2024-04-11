@@ -1,11 +1,9 @@
-// FellowDetails.jsx
-
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import fetchData from '../utils/fetchData';
 
-const FellowDetails = () => {
-  const [song, setSong] = useState({})
+const SongDetails = () => {
+  const [song, setSong] = useState(null)
   const [newSongTitle, setNewSongTitle] = useState('');
   const [newSongArtist, setNewSongArtist] = useState('');
 
@@ -74,4 +72,4 @@ const FellowDetails = () => {
   )
 }
 
-export default FellowDetails;
+export default SongDetails;

@@ -1,4 +1,3 @@
-// songController.js
 
 const Song = require('../model/Song');
 
